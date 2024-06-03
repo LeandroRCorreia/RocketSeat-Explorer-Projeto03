@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #E5E5E5;
+    font-family: 'Poppins', sans-serif;
+}
+
+body::before{
+    content: '';
+
+    width: 100%;
+    height: 368px;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background: #121214;
+}
+
+.page{
+    margin: auto;
+    width: 736px;
+}
+
+header{
+    margin-top: 80px;
+    width: 319px;
+}
+
+h1{
+    font-family: 'Archivo', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 42px;
+
+    color: white;
+
+    
+}
+
+header p{
+    padding-top: 24px;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #42D3FF;
+}
+
+form{
+    min-height: 369px;
+    background-color: #FAFAFC;
+    border-radius: 8px;
+
+    margin-top: 42px;
+    padding: 64px 64px;
+}
+
+fieldset{
+    border: none;
+
+}
+
+legend{
+    font-family: 'Archivo', sans-serif;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 600;
+    color: #32264D;
+
+    border-bottom: 1px solid #E5E5E5;
+    padding-bottom: 16px;
+    width: 100%;
+
+}
+
+.input-wrapper{
+    padding-top: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-wrapper label{
+    font-size: 14px;
+    line-height: 24px;
+    color: #4E4958;
+    padding-bottom: 8px;
+
+}
+
+.input-wrapper label span{
+    font-size: 12px;
+    line-height: 20px;
+    color: #C1BCCC;
+
+    padding-left: 12px;
+
+}
+
+input{
+    width: 608px;
+    height: 56px;
+    border-radius: 8px;
+
+    background-color: #FAFAFC;
+
+    border-color: #E6E6F0;
+}
